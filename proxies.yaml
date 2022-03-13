@@ -1,0 +1,61 @@
+  proxies:
+    - name: 'DB Pre Web'
+      addr: '10.0.33.84:3306'
+      port: 10001
+    - name: 'DB Pre Doraemon'
+      addr: '10.0.33.86:3306'
+      port: 10002
+    - name: 'SSH Web'
+      addr: '10.0.33.84:22'
+      port: 10003
+    - name: 'SSH Doraemon'
+      addr: '10.0.33.86:22'
+      port: 10004
+    - name: 'SSH BigData'
+      addr: '10.30.36.113:22'
+      port: 10005
+    - name: 'SSH BigData 2'
+      addr: '10.0.37.147:22'
+      port: 10006
+    - name: 'DB Dev'
+      addr: '10.0.33.95:3306'
+      port: 10007
+    - name: 'Postgres Dev'
+      addr: '10.0.33.91:5432'
+      port: 10008
+    - name: 'Postgres Pre'
+      addr: '10.0.33.101:5432'
+      port: 10009
+    - name: 'LDAP dev'
+      addr: '10.0.33.97:10083'
+      port: 10010
+    - name: 'DB Dev'
+      addr: '10.0.33.95:3306'
+      port: 10011
+    - name: 'BigData API Server'
+      addr: '10.30.36.113:9600'
+      port: 10012
+    - name: 'Redis of Gray Update (PRE)'
+      addr: '10.0.33.84:6380'
+      port: 10013
+    - name: 'Backup Server'
+      addr: '10.0.33.106:22'
+      port: 10014
+    - name: 'Doraemon Pre'
+      addr: '10.0.33.50:32007'
+      port: 10015
+    - name: 'Annunnaki 111'
+      addr: '10.0.33.111:22'
+      port: 10016
+    - name: 'Annunnaki 112'
+      addr: '10.0.33.112:22'
+      port: 10017
+    - name: 'anunnaki1 supervisor'
+      addr: '10.0.33.111:9001'
+      port: 10021
+    - name: 'anunnaki2 supervisor'
+      addr: '10.0.33.112:9001'
+      port: 10022
+    - name: 'anunnaki3 supervisor'
+      addr: '10.0.37.147:9001'
+      port: 10023
